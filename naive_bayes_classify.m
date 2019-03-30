@@ -1,6 +1,3 @@
-% Naive Bayes Classifier
-% 3. Classification
-% Jeffrey Jedele, 2011
 
 function [predicted_classes, posteriors] = naive_bayes_classify(vectors, priors, likelihoods, evidence)
    % N-feature_space;K-category;M-sample_size
